@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Домашняя работа по веб-страницам</title>
+ </head>
+ <body>
+ <h1 align="left center"><font size="20" color="white" face="KJV1611">Домашняя работа</font></h1>
+ <style>
+   body {
+    background: url(111) no-repeat; 
+   }
+  </style>
+  <p id="blinking" align= "center">Страница: "О себе" в виде резюме.</p>
+  <p><img src="BRH6pGHgV7E.JPG" width="40%"
+  alt="Иллюстрация" align="right" 
+  vspace="5" hspace="5"></p>
+  <p><dl><font size="10" color="Green" face="KJV1611"><dt><i>Имя:</i></dt><dd></font><dd>Михаил</dd>
+  <font size="10" color="Green" face="KJV1611"><dt><i>Отчество:</i></dt></font><dd>Александрович</dd>
+  <font size="10" color="Green" face="KJV1611"><dt><i>Фамилия:</i></dt></font><dd>Журавлёв</dd>
+  <font size="10" color="Green" face="KJV1611"><dt><i>Год рождения</i>:</dt></dt></font><dd>1999</dd>
+  <font size="10" color="Green" face="KJV1611"><dt><i>Место работы</i>:</dt></font><dd><mark>Иждевенец несчастный</mark></dd>
+  <font size="10" color="Green" face="KJV1611"><dt><i>Стаж работы:</i></dt></font><dd>Нет</dd>
+  <font size="10" color="Green" face="KJV1611"><dt><i>Место обучения:</i></dt></font><dd>ИГХТУ</dd>
+  <font size="10" color="Green" face="KJV1611"><dt><i>Прочее:</i></dt></font></dl><dd><ul><li>Наличие двух дипломов по окончании музыкальной школыc, один из которых с отличием</li>
+  <li>Выступление на благотворительных мероприятиях</li><li>Выступление на праздничных меропритиях</li></ul></dd></p>
+  <p align= "center" color="Red">BubleGum</p>
+  <script>
+      
+    var p = document.getElementById("blinking");
+          
+    setInterval(function() {
+            if (p.style.fontSize != '40px') {
+              p.style.fontSize = '40px';
+            } else {
+              p.style.fontSize = '90px';
+            }
+          }, 2000);
+        </script>
+ </body>
+</html>
